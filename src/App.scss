@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+
+  }
+  &__locationContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  &__location {
+    margin: 1rem;
+  }
+}
